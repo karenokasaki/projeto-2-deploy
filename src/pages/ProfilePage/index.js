@@ -5,7 +5,7 @@ import EditUserForm from "../../components/EditUserForm";
 import Notes from "../../components/Notes";
 import Questions from "../../components/Questions";
 
-import { Row, Col, Form, Button, Accordion } from "react-bootstrap";
+import { Button, Accordion } from "react-bootstrap";
 
 function ProfilePage() {
   const { studentID } = useParams();
